@@ -1,6 +1,7 @@
 version: '3'
 services:
   gpt-researcher:
+    network_mode: host 
     image: assafelovic/gpt-researcher
     build: ./
     environment: 
